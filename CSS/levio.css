@@ -1,3 +1,7 @@
+/* CSS de la page secrète */
+
+/* Gif en background */
+
 body {
     overflow: hidden;
     background-image: url("../images/giphy.gif");
@@ -11,12 +15,19 @@ body {
 }
 
 
-
 h1 {
     color: crimson;
     text-transform: uppercase;
     animation: wow1 .5s infinite alternate;
 }
+
+h2 {
+    color: navy;
+    text-transform: uppercase;
+    animation: wow2 .5s infinite alternate;
+}
+
+/* Animation du texte central (Clignottement et élargissement) */
 
 @keyframes wow1 {
     from {
@@ -29,11 +40,6 @@ h1 {
     }
 }
 
-h2 {
-    color: navy;
-    text-transform: uppercase;
-    animation: wow2 .5s infinite alternate;
-}
 
 @keyframes wow2 {
     from {

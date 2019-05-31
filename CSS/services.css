@@ -3,6 +3,12 @@
     justify-content: center;
 }
 
+.container div {
+    border: 3px solid #C0B283;
+}
+
+/* Utilisaiton de grid (Pourrait être mieux géré) pour le placement des différentes fenêtres de services */
+
 .container {
     height: 70vh;
     width: 80vw;
@@ -19,6 +25,8 @@
     grid-column: 1 / 13;
     grid-row: 1 / 12;
 }
+
+/* Changement d'image (plus sombre + texte) au survol */
 
 .montres:hover {
     background-image:url("../images/img_02_dark.jpg");
@@ -46,6 +54,8 @@
     grid-row: 14 / 22;
 }
 
+/* Changement d'image (plus sombre + texte) au survol */
+
 .reparation:hover {
     background-image:url("../images/img_11_dark.jpg");
     transition-duration: .2s;
@@ -59,11 +69,9 @@
     grid-row: 1 / 22;
 }
 
+/* Changement d'image (plus sombre + texte) au survol */
+
 .horloge:hover {
     background-image:url("../images/img_09_dark.jpg");
     transition-duration: .05s;
-}
-
-.container div {
-    border: 3px solid #C0B283;
 }

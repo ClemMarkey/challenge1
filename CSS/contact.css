@@ -4,8 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  2.5vh 2.5vh;
+    margin: 2.5vh 2.5vh;
 }
+
+/* Mise en page du formulaire */
 
 .formulaire {
     padding: 2vw;
@@ -28,17 +30,7 @@ input {
     line-height: 2.5em;
 }
 
-.carte {
-    width:30vw;
-    padding-right: 5vw;
-}
-
-.carte p {
-    color: #F4F4F4;
-    font-weight: bold;
-    line-height: 2em;
-    font-family: "Cinzel";
-}
+/* Style du bouton submit */
 
 .button {
     text-align: center;
@@ -58,6 +50,18 @@ button:hover {
 }
 
 iframe {
-    display:block;
-    width:100%;
+    display: block;
+    width: 100%;
+}
+
+.carte {
+    width: 30vw;
+    padding-right: 5vw;
+}
+
+.carte p {
+    color: #F4F4F4;
+    font-weight: bold;
+    line-height: 2em;
+    font-family: "Cinzel";
 }
