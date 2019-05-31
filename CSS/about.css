@@ -1,0 +1,71 @@
+.big_cont {
+    margin: 2% 3%;
+    padding: 10px;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    color: #C0B283;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/*! Partie Gauche */
+
+.left_cont {
+    width: 50vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-right: 30px;
+}
+
+
+.bg {
+    background-color: rgba(55, 55, 55, 0.76);
+    padding: 1em;
+}
+
+.bg:nth-child(2) {
+    margin-top: 2em;
+}
+
+p {
+    color: #F4F4F4;
+    text-align: justify;
+}
+
+/* Logos RS en flex */
+
+.logos {
+    margin-top: 35vh;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    padding-left: 5vw;
+}
+
+.logos a img {
+    width: 50%;
+}
+
+/*! Partie Droite */
+
+.right_cont {
+    width: 50vw;
+    margin: 2% 2% 2% 0;
+    padding-left: 30px;
+}
+
+.olivier {
+    width: 30vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.bg, .olivier {
+    border: 3px solid #C0B283;
+}

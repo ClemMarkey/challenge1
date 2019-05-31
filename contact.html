@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Olivier Horlogerie - Contact</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/olivier-logo.png" alt="Logo d'Oliver"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">A&nbsp;propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="formulaire">
+
+            <form action="coucou.txt">
+
+                <label for="last_name">Nom</label>
+                <input type="text" name="user_name" id="last_name" placeholder="Votre nom" required>
+
+                <label for="first_name">Prénom</label>
+                <input type="text" name="user_first_name" id="first_name" placeholder="Vote prénom" required>
+
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="user_mail" placeholder="Votre e-mail" required>
+
+                <label for="tel">Téléphone</label>
+                <input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone (optionnel)">
+
+
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" cols="50" rows="15" placeholder="Tapez votre message ici"
+                    required></textarea>
+
+                <div class="button">
+                    <button type="submit">Envoyer</button>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="carte">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2513.6633700436564!2d1.8547036161261197!3d50.94843827954729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dc3f73ce311321%3A0x8eb283b3a5494c64!2sCentre+Commercial+Calais+Coeur+De+Vie!5e0!3m2!1sfr!2sfr!4v1559034062410!5m2!1sfr!2sfr"
+                width="550" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <p>
+                Olivier <br>
+                Calais Coeur de Vie <br>
+                06.48.29.72.04
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

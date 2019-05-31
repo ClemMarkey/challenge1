@@ -1,0 +1,28 @@
+/* ? Article */
+
+article{
+    width: 60vw;
+    min-width: 380px;
+    padding: 1.5em 4vw;
+    background-color: #f4f4f4ce;
+    margin: 25vh auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid #C0B283;
+    text-align: center;
+}
+
+input {
+    font-size: 1em;
+    padding: 3vh;
+    min-width: 104px;
+    border: none;
+    background-color: #DCD0C0;
+    border: 3px solid #C0B283;
+}
+
+input:hover {
+    background-color: #C0B283;
+    border: 3px solid #DCD0C0;
+}

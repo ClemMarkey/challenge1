@@ -1,0 +1,63 @@
+.container {
+    background-color: #373737ab;
+    border: 3px solid #C0B283;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  2.5vh 2.5vh;
+}
+
+.formulaire {
+    padding: 2vw;
+    padding-left: 5vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #F4F4F4;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+    font-weight: bold;
+}
+
+input {
+    line-height: 2.5em;
+}
+
+.carte {
+    width:30vw;
+    padding-right: 5vw;
+}
+
+.carte p {
+    color: #F4F4F4;
+    font-weight: bold;
+    line-height: 2em;
+    font-family: "Cinzel";
+}
+
+.button {
+    text-align: center;
+}
+
+button {
+    font-family: "Cinzel";
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 1.5em;
+    border: none;
+    background-color: #DCD0C0;
+}
+
+button:hover {
+    background-color: #C0B283;
+}
+
+iframe {
+    display:block;
+    width:100%;
+}
