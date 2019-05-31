@@ -1,4 +1,47 @@
 body {
+    overflow: hidden;
     background-image: url("../images/giphy.gif");
     background-size: cover;
+}
+
+.cont {
+    width: 100vw;
+    text-align: center;
+    margin-top: 45vh;
+}
+
+
+
+h1 {
+    color: crimson;
+    text-transform: uppercase;
+    animation: wow1 .5s infinite alternate;
+}
+
+@keyframes wow1 {
+    from {
+    
+    }
+
+    to {
+    color: navy;
+    font-size: 5em;
+    }
+}
+
+h2 {
+    color: navy;
+    text-transform: uppercase;
+    animation: wow2 .5s infinite alternate;
+}
+
+@keyframes wow2 {
+    from {
+    
+    }
+
+    to {
+    color: crimson;
+    font-size: 3em;
+    }
 }
